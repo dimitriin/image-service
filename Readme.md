@@ -5,6 +5,11 @@ It's GRPC service with functionality:
 
 Protocol description provided [here](./proto/v1/service.proto).
 
+# Test
+``
+make test
+``
+
 # Build
 ``
 GOOS=linux BINARY_OUTPUT="bin/image-service" make build
