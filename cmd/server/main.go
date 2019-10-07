@@ -6,7 +6,7 @@ import (
 	"github.com/dimitriin/image-service/internal/interfaces"
 	"github.com/dimitriin/image-service/internal/usecases"
 	pb "github.com/dimitriin/image-service/pkg/imagepb/v1"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"image/color"
 	"net"

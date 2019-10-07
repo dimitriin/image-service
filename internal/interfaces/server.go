@@ -7,7 +7,7 @@ import (
 	"github.com/dimitriin/image-service/internal/infrastructure"
 	"github.com/dimitriin/image-service/internal/usecases"
 	pb "github.com/dimitriin/image-service/pkg/imagepb/v1"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 // Server provides handlers for GRPC service.

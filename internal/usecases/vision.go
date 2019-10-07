@@ -6,7 +6,7 @@ import (
 	"context"
 	"github.com/dimitriin/image-service/internal/domain"
 	"github.com/dimitriin/image-service/internal/infrastructure"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 // ObjectDetector expected interface for cleanable objects detection on image.
